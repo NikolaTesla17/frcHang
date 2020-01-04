@@ -2,7 +2,7 @@ var rob, rob2, robDist;
 let oneDist, weight, weight2;
 
 function setup() {
-   createCanvas(710, 400);
+   createCanvas(1200, 800);
    textSize(15);
    noStroke();
 
@@ -31,6 +31,9 @@ function draw() {
 
    text('robot 2 weight', 200, 155);
    rob2 = weight2.value();
+
+   text('see https://www.geogebra.org/m/aapcdzvf for a better version made by gideonrab', 500, 105);
+
    findDist();
 }
 
